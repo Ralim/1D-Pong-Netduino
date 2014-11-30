@@ -1,0 +1,39 @@
+c:\Users\dglover\documents\visual studio 2012\Projects\Demo1\Glovebox.Netduino\bin\Debug\le\Glovebox.Netduino.dll
+c:\Users\dglover\documents\visual studio 2012\Projects\Demo1\Glovebox.Netduino\bin\Debug\be\Glovebox.Netduino.dll
+c:\Users\dglover\documents\visual studio 2012\Projects\Demo1\Glovebox.Netduino\bin\Debug\le\Glovebox.Netduino.pdb
+c:\Users\dglover\documents\visual studio 2012\Projects\Demo1\Glovebox.Netduino\bin\Debug\be\Glovebox.Netduino.pdb
+c:\Users\dglover\documents\visual studio 2012\Projects\Demo1\Glovebox.Netduino\bin\Debug\Glovebox.Netduino.dll
+c:\Users\dglover\documents\visual studio 2012\Projects\Demo1\Glovebox.Netduino\bin\Debug\Glovebox.Netduino.pdb
+c:\Users\dglover\documents\visual studio 2012\Projects\Demo1\Glovebox.Netduino\bin\Debug\le\Glovebox.Netduino.pe
+c:\Users\dglover\documents\visual studio 2012\Projects\Demo1\Glovebox.Netduino\bin\Debug\le\Glovebox.Netduino.pdbx
+c:\Users\dglover\documents\visual studio 2012\Projects\Demo1\Glovebox.Netduino\bin\Debug\be\Glovebox.Netduino.pe
+c:\Users\dglover\documents\visual studio 2012\Projects\Demo1\Glovebox.Netduino\bin\Debug\be\Glovebox.Netduino.pdbx
+c:\Users\dglover\documents\visual studio 2012\Projects\Demo1\Glovebox.Netduino\obj\Debug\be\Glovebox.Netduino.pe
+c:\Users\dglover\documents\visual studio 2012\Projects\Demo1\Glovebox.Netduino\obj\Debug\be\Glovebox.Netduino.pdbx
+c:\Users\dglover\documents\visual studio 2012\Projects\Demo1\Glovebox.Netduino\obj\Debug\le\Glovebox.Netduino.pe
+c:\Users\dglover\documents\visual studio 2012\Projects\Demo1\Glovebox.Netduino\obj\Debug\le\Glovebox.Netduino.pdbx
+c:\Users\dglover\documents\visual studio 2012\Projects\Demo1\Glovebox.Netduino\obj\Debug\Glovebox.Netduino.dll
+c:\Users\dglover\documents\visual studio 2012\Projects\Demo1\Glovebox.Netduino\obj\Debug\Glovebox.Netduino.pdb
+C:\Data\Projects\Netduino\MakerDen\Glovebox.Netduino\bin\Debug\le\Glovebox.Netduino.dll
+C:\Data\Projects\Netduino\MakerDen\Glovebox.Netduino\bin\Debug\be\Glovebox.Netduino.dll
+C:\Data\Projects\Netduino\MakerDen\Glovebox.Netduino\bin\Debug\le\Glovebox.Netduino.pdb
+C:\Data\Projects\Netduino\MakerDen\Glovebox.Netduino\bin\Debug\be\Glovebox.Netduino.pdb
+C:\Data\Projects\Netduino\MakerDen\Glovebox.Netduino\bin\Debug\Glovebox.Netduino.dll
+C:\Data\Projects\Netduino\MakerDen\Glovebox.Netduino\bin\Debug\Glovebox.Netduino.pdb
+C:\Data\Projects\Netduino\MakerDen\Glovebox.Netduino\bin\Debug\le\Glovebox.Netduino.pe
+C:\Data\Projects\Netduino\MakerDen\Glovebox.Netduino\bin\Debug\le\Glovebox.Netduino.pdbx
+C:\Data\Projects\Netduino\MakerDen\Glovebox.Netduino\bin\Debug\be\Glovebox.Netduino.pe
+C:\Data\Projects\Netduino\MakerDen\Glovebox.Netduino\bin\Debug\be\Glovebox.Netduino.pdbx
+C:\Data\Projects\Netduino\MakerDen\Glovebox.Netduino\bin\Debug\LE\SecretLabs.NETMF.Hardware.Netduino.pe
+C:\Data\Projects\Netduino\MakerDen\Glovebox.Netduino\bin\Debug\BE\SecretLabs.NETMF.Hardware.Netduino.pe
+C:\Data\Projects\Netduino\MakerDen\Glovebox.Netduino\bin\Debug\LE\SecretLabs.NETMF.Hardware.Netduino.pdbx
+C:\Data\Projects\Netduino\MakerDen\Glovebox.Netduino\bin\Debug\BE\SecretLabs.NETMF.Hardware.Netduino.pdbx
+C:\Data\Projects\Netduino\MakerDen\Glovebox.Netduino\bin\Debug\SecretLabs.NETMF.Hardware.Netduino.dll
+C:\Data\Projects\Netduino\MakerDen\Glovebox.Netduino\bin\Debug\SecretLabs.NETMF.Hardware.Netduino.pdb
+C:\Data\Projects\Netduino\MakerDen\Glovebox.Netduino\obj\Debug\be\Glovebox.Netduino.pe
+C:\Data\Projects\Netduino\MakerDen\Glovebox.Netduino\obj\Debug\be\Glovebox.Netduino.pdbx
+C:\Data\Projects\Netduino\MakerDen\Glovebox.Netduino\obj\Debug\le\Glovebox.Netduino.pe
+C:\Data\Projects\Netduino\MakerDen\Glovebox.Netduino\obj\Debug\le\Glovebox.Netduino.pdbx
+C:\Data\Projects\Netduino\MakerDen\Glovebox.Netduino\obj\Debug\Glovebox.Netduino.dll
+C:\Data\Projects\Netduino\MakerDen\Glovebox.Netduino\obj\Debug\Glovebox.Netduino.pdb
+C:\Data\Projects\Netduino\MakerDen\Glovebox.Netduino\obj\Debug\TinyCLR_DebugReferences.cache

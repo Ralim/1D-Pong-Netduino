@@ -1,0 +1,6 @@
+C:\Data\Projects\Netduino\MakerDen\HydraDen\obj\Release\HydraDen.csprojResolveAssemblyReference.cache
+C:\Data\Projects\Netduino\MakerDen\HydraDen\obj\Release\TinyCLR_DebugReferences.cache
+C:\Data\Projects\Netduino\MakerDen\HydraDen\obj\Release\test.Resources.resources
+C:\Data\Projects\Netduino\MakerDen\HydraDen\obj\Release\HydraDen.csproj.GenerateResource.Cache
+C:\Data\Projects\Netduino\MakerDen\HydraDen\obj\Release\test.Resources.tinyresources
+C:\Data\Projects\Netduino\MakerDen\HydraDen\obj\Release\TinyResGen.cache

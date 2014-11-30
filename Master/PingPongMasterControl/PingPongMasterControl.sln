@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PingPongMasterControl", "PingPongMasterControl\PingPongMasterControl.csproj", "{DD08141D-6599-4C56-B1E7-94116A321BEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD08141D-6599-4C56-B1E7-94116A321BEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD08141D-6599-4C56-B1E7-94116A321BEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD08141D-6599-4C56-B1E7-94116A321BEE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DD08141D-6599-4C56-B1E7-94116A321BEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD08141D-6599-4C56-B1E7-94116A321BEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD08141D-6599-4C56-B1E7-94116A321BEE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

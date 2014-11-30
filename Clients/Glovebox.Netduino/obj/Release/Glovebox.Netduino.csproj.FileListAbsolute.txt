@@ -1,0 +1,86 @@
+C:\Users\dglover\Documents\Visual Studio 2012\Projects\Demo1\Glovebox.Netduino\bin\Release\le\Glovebox.Netduino.dll
+C:\Users\dglover\Documents\Visual Studio 2012\Projects\Demo1\Glovebox.Netduino\bin\Release\be\Glovebox.Netduino.dll
+C:\Users\dglover\Documents\Visual Studio 2012\Projects\Demo1\Glovebox.Netduino\bin\Release\le\Glovebox.Netduino.pdb
+C:\Users\dglover\Documents\Visual Studio 2012\Projects\Demo1\Glovebox.Netduino\bin\Release\be\Glovebox.Netduino.pdb
+C:\Users\dglover\Documents\Visual Studio 2012\Projects\Demo1\Glovebox.Netduino\bin\Release\Glovebox.Netduino.dll
+C:\Users\dglover\Documents\Visual Studio 2012\Projects\Demo1\Glovebox.Netduino\bin\Release\Glovebox.Netduino.pdb
+C:\Users\dglover\Documents\Visual Studio 2012\Projects\Demo1\Glovebox.Netduino\bin\Release\le\Glovebox.Netduino.pe
+C:\Users\dglover\Documents\Visual Studio 2012\Projects\Demo1\Glovebox.Netduino\bin\Release\le\Glovebox.Netduino.pdbx
+C:\Users\dglover\Documents\Visual Studio 2012\Projects\Demo1\Glovebox.Netduino\bin\Release\be\Glovebox.Netduino.pe
+C:\Users\dglover\Documents\Visual Studio 2012\Projects\Demo1\Glovebox.Netduino\bin\Release\be\Glovebox.Netduino.pdbx
+C:\Users\dglover\Documents\Visual Studio 2012\Projects\Demo1\Glovebox.Netduino\obj\Release\be\Glovebox.Netduino.pe
+C:\Users\dglover\Documents\Visual Studio 2012\Projects\Demo1\Glovebox.Netduino\obj\Release\be\Glovebox.Netduino.pdbx
+C:\Users\dglover\Documents\Visual Studio 2012\Projects\Demo1\Glovebox.Netduino\obj\Release\le\Glovebox.Netduino.pe
+C:\Users\dglover\Documents\Visual Studio 2012\Projects\Demo1\Glovebox.Netduino\obj\Release\le\Glovebox.Netduino.pdbx
+C:\Users\dglover\Documents\Visual Studio 2012\Projects\Demo1\Glovebox.Netduino\obj\Release\Glovebox.Netduino.dll
+C:\Users\dglover\Documents\Visual Studio 2012\Projects\Demo1\Glovebox.Netduino\obj\Release\Glovebox.Netduino.pdb
+C:\Users\dglover\Documents\Visual Studio 2012\Projects\Demo1\Glovebox.Netduino\bin\Release\LE\SecretLabs.NETMF.Hardware.Netduino.pe
+C:\Users\dglover\Documents\Visual Studio 2012\Projects\Demo1\Glovebox.Netduino\bin\Release\BE\SecretLabs.NETMF.Hardware.Netduino.pe
+C:\Users\dglover\Documents\Visual Studio 2012\Projects\Demo1\Glovebox.Netduino\bin\Release\LE\SecretLabs.NETMF.Hardware.Netduino.pdbx
+C:\Users\dglover\Documents\Visual Studio 2012\Projects\Demo1\Glovebox.Netduino\bin\Release\BE\SecretLabs.NETMF.Hardware.Netduino.pdbx
+C:\Users\dglover\Documents\Visual Studio 2012\Projects\Demo1\Glovebox.Netduino\bin\Release\SecretLabs.NETMF.Hardware.Netduino.dll
+C:\Users\dglover\Documents\Visual Studio 2012\Projects\Demo1\Glovebox.Netduino\bin\Release\SecretLabs.NETMF.Hardware.Netduino.pdb
+C:\Users\dglover\Documents\Visual Studio 2012\Projects\Demo1\Glovebox.Netduino\bin\Release\LE\M2Mqtt.pe
+C:\Users\dglover\Documents\Visual Studio 2012\Projects\Demo1\Glovebox.Netduino\bin\Release\BE\M2Mqtt.pe
+C:\Users\dglover\Documents\Visual Studio 2012\Projects\Demo1\Glovebox.Netduino\bin\Release\LE\M2Mqtt.pdbx
+C:\Users\dglover\Documents\Visual Studio 2012\Projects\Demo1\Glovebox.Netduino\bin\Release\BE\M2Mqtt.pdbx
+C:\Users\dglover\Documents\Visual Studio 2012\Projects\Demo1\Glovebox.Netduino\bin\Release\M2Mqtt.dll
+C:\Users\dglover\Documents\Visual Studio 2012\Projects\Demo1\Glovebox.Netduino\obj\Release\TinyCLR_DebugReferences.cache
+C:\Users\dglover\Documents\Visual Studio 2012\Projects\MakerDen\Glovebox.Netduino\bin\Release\le\Glovebox.Netduino.dll
+C:\Users\dglover\Documents\Visual Studio 2012\Projects\MakerDen\Glovebox.Netduino\bin\Release\be\Glovebox.Netduino.dll
+C:\Users\dglover\Documents\Visual Studio 2012\Projects\MakerDen\Glovebox.Netduino\bin\Release\le\Glovebox.Netduino.pdb
+C:\Users\dglover\Documents\Visual Studio 2012\Projects\MakerDen\Glovebox.Netduino\bin\Release\be\Glovebox.Netduino.pdb
+C:\Users\dglover\Documents\Visual Studio 2012\Projects\MakerDen\Glovebox.Netduino\bin\Release\Glovebox.Netduino.dll
+C:\Users\dglover\Documents\Visual Studio 2012\Projects\MakerDen\Glovebox.Netduino\bin\Release\Glovebox.Netduino.pdb
+C:\Users\dglover\Documents\Visual Studio 2012\Projects\MakerDen\Glovebox.Netduino\bin\Release\le\Glovebox.Netduino.pe
+C:\Users\dglover\Documents\Visual Studio 2012\Projects\MakerDen\Glovebox.Netduino\bin\Release\le\Glovebox.Netduino.pdbx
+C:\Users\dglover\Documents\Visual Studio 2012\Projects\MakerDen\Glovebox.Netduino\bin\Release\be\Glovebox.Netduino.pe
+C:\Users\dglover\Documents\Visual Studio 2012\Projects\MakerDen\Glovebox.Netduino\bin\Release\be\Glovebox.Netduino.pdbx
+C:\Users\dglover\Documents\Visual Studio 2012\Projects\MakerDen\Glovebox.Netduino\bin\Release\LE\M2Mqtt.pe
+C:\Users\dglover\Documents\Visual Studio 2012\Projects\MakerDen\Glovebox.Netduino\bin\Release\LE\SecretLabs.NETMF.Hardware.Netduino.pe
+C:\Users\dglover\Documents\Visual Studio 2012\Projects\MakerDen\Glovebox.Netduino\bin\Release\BE\M2Mqtt.pe
+C:\Users\dglover\Documents\Visual Studio 2012\Projects\MakerDen\Glovebox.Netduino\bin\Release\BE\SecretLabs.NETMF.Hardware.Netduino.pe
+C:\Users\dglover\Documents\Visual Studio 2012\Projects\MakerDen\Glovebox.Netduino\bin\Release\LE\M2Mqtt.pdbx
+C:\Users\dglover\Documents\Visual Studio 2012\Projects\MakerDen\Glovebox.Netduino\bin\Release\LE\SecretLabs.NETMF.Hardware.Netduino.pdbx
+C:\Users\dglover\Documents\Visual Studio 2012\Projects\MakerDen\Glovebox.Netduino\bin\Release\BE\M2Mqtt.pdbx
+C:\Users\dglover\Documents\Visual Studio 2012\Projects\MakerDen\Glovebox.Netduino\bin\Release\BE\SecretLabs.NETMF.Hardware.Netduino.pdbx
+C:\Users\dglover\Documents\Visual Studio 2012\Projects\MakerDen\Glovebox.Netduino\bin\Release\M2Mqtt.dll
+C:\Users\dglover\Documents\Visual Studio 2012\Projects\MakerDen\Glovebox.Netduino\bin\Release\SecretLabs.NETMF.Hardware.Netduino.dll
+C:\Users\dglover\Documents\Visual Studio 2012\Projects\MakerDen\Glovebox.Netduino\bin\Release\SecretLabs.NETMF.Hardware.Netduino.pdb
+C:\Users\dglover\Documents\Visual Studio 2012\Projects\MakerDen\Glovebox.Netduino\obj\Release\Glovebox.Netduino.csprojResolveAssemblyReference.cache
+C:\Users\dglover\Documents\Visual Studio 2012\Projects\MakerDen\Glovebox.Netduino\obj\Release\TinyCLR_DebugReferences.cache
+C:\Users\dglover\Documents\Visual Studio 2012\Projects\MakerDen\Glovebox.Netduino\obj\Release\be\Glovebox.Netduino.pe
+C:\Users\dglover\Documents\Visual Studio 2012\Projects\MakerDen\Glovebox.Netduino\obj\Release\be\Glovebox.Netduino.pdbx
+C:\Users\dglover\Documents\Visual Studio 2012\Projects\MakerDen\Glovebox.Netduino\obj\Release\le\Glovebox.Netduino.pe
+C:\Users\dglover\Documents\Visual Studio 2012\Projects\MakerDen\Glovebox.Netduino\obj\Release\le\Glovebox.Netduino.pdbx
+C:\Users\dglover\Documents\Visual Studio 2012\Projects\MakerDen\Glovebox.Netduino\obj\Release\Glovebox.Netduino.dll
+C:\Users\dglover\Documents\Visual Studio 2012\Projects\MakerDen\Glovebox.Netduino\obj\Release\Glovebox.Netduino.pdb
+C:\Data\Projects\Netduino\MakerDen\Glovebox.Netduino\bin\Release\le\Glovebox.Netduino.dll
+C:\Data\Projects\Netduino\MakerDen\Glovebox.Netduino\bin\Release\be\Glovebox.Netduino.dll
+C:\Data\Projects\Netduino\MakerDen\Glovebox.Netduino\bin\Release\le\Glovebox.Netduino.pdb
+C:\Data\Projects\Netduino\MakerDen\Glovebox.Netduino\bin\Release\be\Glovebox.Netduino.pdb
+C:\Data\Projects\Netduino\MakerDen\Glovebox.Netduino\bin\Release\Glovebox.Netduino.dll
+C:\Data\Projects\Netduino\MakerDen\Glovebox.Netduino\bin\Release\Glovebox.Netduino.pdb
+C:\Data\Projects\Netduino\MakerDen\Glovebox.Netduino\bin\Release\le\Glovebox.Netduino.pe
+C:\Data\Projects\Netduino\MakerDen\Glovebox.Netduino\bin\Release\le\Glovebox.Netduino.pdbx
+C:\Data\Projects\Netduino\MakerDen\Glovebox.Netduino\bin\Release\be\Glovebox.Netduino.pe
+C:\Data\Projects\Netduino\MakerDen\Glovebox.Netduino\bin\Release\be\Glovebox.Netduino.pdbx
+C:\Data\Projects\Netduino\MakerDen\Glovebox.Netduino\bin\Release\LE\Glovebox.MicroFramework.pe
+C:\Data\Projects\Netduino\MakerDen\Glovebox.Netduino\bin\Release\LE\M2Mqtt.pe
+C:\Data\Projects\Netduino\MakerDen\Glovebox.Netduino\bin\Release\BE\Glovebox.MicroFramework.pe
+C:\Data\Projects\Netduino\MakerDen\Glovebox.Netduino\bin\Release\BE\M2Mqtt.pe
+C:\Data\Projects\Netduino\MakerDen\Glovebox.Netduino\bin\Release\LE\Glovebox.MicroFramework.pdbx
+C:\Data\Projects\Netduino\MakerDen\Glovebox.Netduino\bin\Release\LE\M2Mqtt.pdbx
+C:\Data\Projects\Netduino\MakerDen\Glovebox.Netduino\bin\Release\BE\Glovebox.MicroFramework.pdbx
+C:\Data\Projects\Netduino\MakerDen\Glovebox.Netduino\bin\Release\BE\M2Mqtt.pdbx
+C:\Data\Projects\Netduino\MakerDen\Glovebox.Netduino\bin\Release\Glovebox.MicroFramework.dll
+C:\Data\Projects\Netduino\MakerDen\Glovebox.Netduino\bin\Release\M2Mqtt.dll
+C:\Data\Projects\Netduino\MakerDen\Glovebox.Netduino\bin\Release\Glovebox.MicroFramework.pdb
+C:\Data\Projects\Netduino\MakerDen\Glovebox.Netduino\obj\Release\Glovebox.Netduino.csprojResolveAssemblyReference.cache
+C:\Data\Projects\Netduino\MakerDen\Glovebox.Netduino\obj\Release\TinyCLR_DebugReferences.cache
+C:\Data\Projects\Netduino\MakerDen\Glovebox.Netduino\obj\Release\be\Glovebox.Netduino.pe
+C:\Data\Projects\Netduino\MakerDen\Glovebox.Netduino\obj\Release\be\Glovebox.Netduino.pdbx
+C:\Data\Projects\Netduino\MakerDen\Glovebox.Netduino\obj\Release\le\Glovebox.Netduino.pe
+C:\Data\Projects\Netduino\MakerDen\Glovebox.Netduino\obj\Release\le\Glovebox.Netduino.pdbx
+C:\Data\Projects\Netduino\MakerDen\Glovebox.Netduino\obj\Release\Glovebox.Netduino.dll
+C:\Data\Projects\Netduino\MakerDen\Glovebox.Netduino\obj\Release\Glovebox.Netduino.pdb
