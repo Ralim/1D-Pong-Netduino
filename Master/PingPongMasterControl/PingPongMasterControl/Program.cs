@@ -1,5 +1,10 @@
 ﻿#define SCORE
 //#define DEBUG
+/*
+ * Created By Ben V. Brown & Matthew Muller with Help of Jarred Zeeman for the Microsoft Hackathon at University of Newcastle
+ * This class maintains the connections to all nodes and the gameplay state machine
+ */
+#region usings
 using System;
 using System.Net;
 using System.Net.Sockets;
@@ -9,52 +14,57 @@ using Microsoft.SPOT.Hardware;
 using SecretLabs.NETMF.Hardware;
 using SecretLabs.NETMF.Hardware.Netduino;
 using System.Collections;
-
+#endregion
 namespace PingPongMasterControl
 {
     public class Program
     {
-
+        #region variables
         IPAddress[] Slaves = new IPAddress[] { new IPAddress(new byte[] { 192, 168, 1, 201 }), new IPAddress(new byte[] { 192, 168, 1, 202 }), new IPAddress(new byte[] { 192, 168, 1, 203 }) };
-        const int ClientNum = 3;
-        SlaveComms[] Clients = new SlaveComms[ClientNum];
-        bool[] ClientsActive = new bool[ClientNum];
-        bool[] ClientsAlive = new bool[ClientNum];
+        //Above is the array of the ipaddress's we are going to be connected to
+        const int ClientNum = 3;//The number of clients we have (used in loops)
+        SlaveComms[] Clients = new SlaveComms[ClientNum];//stores our clients themselves
+        bool[] ClientsActive = new bool[ClientNum];//the ones that are active in this game
+        bool[] ClientsAlive = new bool[ClientNum];//the ones that are still alive
 
-        int gameState = 0;
-        int[] ClientHealth = new int[ClientNum];
-        int LastClient = -1;
-        int LastPlayer = -1;
-        byte gamespeed = 3;
-        const byte gamespeedMin = 7;
+        int gameState = 0;//current game state machine
+        int[] ClientHealth = new int[ClientNum];//Stores the health of each client in the gmae
+        int LastClient = -1;//the last client we used a message from
+        int LastPlayer = -1;//as above but player id No
+        byte gamespeed = 3;//The speed of the game
+        const byte gamespeedMin = 7;//the value that we cant cross to make it playable
+        #endregion
         public static void Main()
         {
             // write your code here
             Program p = new Program(); p.run();
-
+            //here we create a main running thread
         }
-
+        /// <summary>
+        /// Main method that runs it all
+        /// </summary>
         public void run()
         {
+            //create our clients on load
             for (int i = 0; i < ClientNum; ++i)
             {
                 Clients[i] = new SlaveComms(Slaves[i], true, i);
                 Clients[i].MessageRecieved += Program_MessageRecieved;
             }
             //initalised our clients
-            long timer = 0; ;
-            int PC = 0;
-            int AC = 0;
-            Random R = new Random();
-            int errorcount = 0;
+            long timer = 0; //timer that we use for timeouts
+            int PC = 0;//Player count temp
+            int AC = 0;//Active count temp
+            Random R = new Random();//Random number generator
+            int errorcount = 0;//error fail counter used in timeouts
             do
             {
-
+                //If gamestate >=2 then the game is running and so this loop keeps us up to date on what peoples health and such is doing
                 if (gameState >= 2)
                 {
                     for (int i = 0; i < ClientNum; i++)
                     {
-                        Clients[i].SendMessage(Const.GetPlayerHealth);//req health
+                        Clients[i].SendMessage(Const.GetPlayerHealth);//request the health of each player to get up to date info
                         if (ClientsActive[i])
                         {
                             if (ClientHealth[i] <= 0)
@@ -68,8 +78,8 @@ namespace PingPongMasterControl
                         }
                     }
 #if SCORE
-                   
-                    Debug.Print("Player 1 : " + ClientHealth[0].ToString() + " Player 2 : " + ClientHealth[1].ToString() + " Player 3 "+ ClientHealth[2].ToString());
+                    //debug health outputs
+                    Debug.Print("Player 1 : " + ClientHealth[0].ToString() + " Player 2 : " + ClientHealth[1].ToString() + " Player 3 " + ClientHealth[2].ToString());
 
 #endif
                 }

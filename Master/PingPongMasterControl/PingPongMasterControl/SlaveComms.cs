@@ -1,3 +1,7 @@
+/*
+ * Created By Ben V. Brown & Matthew Muller with Help of Jarred Zeeman for the Microsoft Hackathon at University of Newcastle
+ * This class maintains the communication layer (udp in this case ) of sending messages along with a constant table for the numbers we use to represent states
+ */
 using System;
 using Microsoft.SPOT;
 using System.Net;
@@ -25,54 +29,63 @@ namespace PingPongMasterControl
     }
     class SlaveComms
     {
-        IPAddress slave;
+        IPAddress TargetDeviceIP;//The endpoint we are talking to
         Socket Listener;
-        public delegate void MessageRecievedHandler(byte Msg, byte MessageData,int index);
+        public delegate void MessageRecievedHandler(byte Msg, byte MessageData, int index);
         public event MessageRecievedHandler MessageRecieved;
-        private int index;
+        private int index;//Used when addressing this device as part of it contacting a slave unit for easy tracking units
 
-        Thread listenThread;
+        Thread listenThread;//This thread monitors the port for data and fires an event when a message is incoming
         /// <summary>
-        /// Init
+        /// Init the class, setting up the Connection and allowing incoming connections
         /// </summary>
-        /// <param name="slaveip"></param>
-        /// <param name="Slave"></param>
-        public SlaveComms(IPAddress slaveip, Boolean Slave,int idx)
+        /// <param name="Targetip">The target unit ip i want to connect to</param>
+        /// <param name="AmiConnectingToASlave">Set this to true to flip the port numbers around</param>
+        /// <param name="idx">Index of the node, can be used to tell them apart if all share an event</param>
+        public SlaveComms(IPAddress Targetip, Boolean AmiConnectingToASlave, int idx)
         {
-            slave = slaveip;//save our ip
-            index = idx;
-            System.Threading.Thread.Sleep(1000);
-            Listener = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);
-            var localip = IPAddress.Parse(Microsoft.SPOT.Net.NetworkInformation.NetworkInterface.GetAllNetworkInterfaces()[0].IPAddress);
-            Listener.Bind(new IPEndPoint(localip, Slave == true ? 7777 : 4242));//set out listening ip/port
-            Listener.Connect(new IPEndPoint(slave, Slave == false ? 7777 : 4242));//set other ends ip / port
+            TargetDeviceIP = Targetip;//save our ip
+            index = idx;//save our index
+            System.Threading.Thread.Sleep(1000);//pause for networking to come up
+            Listener = new Socket(AddressFamily.InterNetwork, SocketType.Dgram, ProtocolType.Udp);//create the socket
+            var localip = IPAddress.Parse(Microsoft.SPOT.Net.NetworkInformation.NetworkInterface.GetAllNetworkInterfaces()[0].IPAddress);//get our ip
+            Listener.Bind(new IPEndPoint(localip, AmiConnectingToASlave == true ? 7777 : 4242));//set out listening ip/port
+            Listener.Connect(new IPEndPoint(TargetDeviceIP, AmiConnectingToASlave == false ? 7777 : 4242));//set other ends ip / port
 
             listenThread = new Thread(new ThreadStart(MessageListenerThread));//start the listening thread
             listenThread.Start();
         }
+        /// <summary>
+        /// Send out a message id and data (with defaults)
+        /// </summary>
+        /// <param name="messageID">The (byte) message to send out</param>
+        /// <param name="Data">The (byte) data to send along with it</param>
         public void SendMessage(byte messageID = 0xFF, byte Data = 0xFF)
         {
-            Listener.Send(new byte[] { 0x42, messageID, Data, 0x42 });
+            Listener.Send(new byte[] { 0x42, messageID, Data, 0x42 });//we use 0x42 as a marker, does nothing in software but makes packet capture easy
         }
+        /// <summary>
+        /// This method forms the base of the thread that checks the socket and allows event based messages
+        /// </summary>
         private void MessageListenerThread()
         {
             do
             {
-                if (Listener.Poll(10000, SelectMode.SelectRead))
+                if (Listener.Poll(10000, SelectMode.SelectRead))//if there is data continue or else timeout at 10000
                 {
-                    byte[] buffer = new byte[10];
+                    byte[] buffer = new byte[10];//a small buffer for recieving the data
 
-                    int read = Listener.Receive(buffer);//,ref ie);
-                    if (read == 4)
+                    int read = Listener.Receive(buffer);//read in the data 
+                    if (read == 4)//if we read 4 bytes from the port
                     {
-                        if (MessageRecieved != null)
+                        if (MessageRecieved != null)//if someone has subscribed to the event
                         {
-                            MessageRecieved(buffer[1], buffer[2],index);
+                            MessageRecieved(buffer[1], buffer[2], index);//fire off the event
                         }
                     }
                     else Debug.Print(read.ToString());//oopsies
                 }
-            } while (true);
+            } while (true);//we run until the unit is powered down or we are killed
         }
 
     }
