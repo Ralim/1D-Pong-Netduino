@@ -9,13 +9,15 @@ Configure the ips of the netduinos in this style (matches current code)
 1. Master -> 192.168.1.200
 2. Slave1 -> 192.168.1.201
 3. Slave2 -> 192.168.1.202
-etc
-----------------
+
+===============
+
 Each slave is a game controller, with a ws2812b (NeoPixel) connected to it, using pin 11 for Data into the led, and a common ground between the netduino and the power supply for the netduino.
 Make sure each netduino is linked on a network running in the same subnet of each other.
 Dont forget to set the MAC address of each netduino
 Each LED strip is designed to be 50 leds long.
 
+--------------
 How to play:
 1.With the master running each node should show the animation countdown waiting for a player to select the game.
 2. While the countdown is running, press and hold the button to join the game, LEDs will go green to confirm
